@@ -6,7 +6,7 @@
 
 ## 🎓 J'ai compris et je peux expliquer
 
-### L'intérêt de TypeScript dans l'IDE ✅ / ❌
+### L'intérêt de TypeScript dans l'IDE ✅ 
 
 **Explication :**  
 TypeScript apporte des **types statiques** au JavaScript, ce qui permet à l'IDE de :  
@@ -30,7 +30,7 @@ add(2, "3"); // Erreur signalée par l'IDE avant l'exécution
 
 ---
 
-### Les types de base ✅ / ❌
+### Les types de base ✅ 
 
 **Explication :**  
 Les types de base permettent de définir clairement le type de données attendu :
@@ -54,7 +54,7 @@ let user: [string, number] = ["Maxime", 28]; // Tuple
 
 ---
 
-### Comment et pourquoi étendre une interface ✅ / ❌
+### Comment et pourquoi étendre une interface ✅ 
 
 **Explication :**  
 L'extension d'une interface permet de **réutiliser** des définitions existantes tout en ajoutant de nouvelles propriétés. Cela favorise la modularité et évite la duplication.
@@ -86,7 +86,7 @@ const admin: Admin = {
 
 ---
 
-### Les classes et les decorators ✅ / ❌
+### Les classes et les decorators ✅ 
 
 #### Classes  
 TypeScript ajoute des fonctionnalités orientées objet à JavaScript. Les classes permettent de créer des objets avec des propriétés et des méthodes, facilitant la réutilisation et la modularité.
@@ -135,28 +135,34 @@ const product = new Product("Laptop");
 
 ---
 
-### Résumé  
-Si tu te sens confiant sur ces sujets, coche-les comme acquis (`✅`). Sinon, indique les sujets à travailler (`❌`) pour approfondir avec des exemples ou explications plus détaillés.
-
 ## 💻 J'utilise
 
-### Un exemple personnel commenté ❌ / ✔️
+### Un exemple personnel commenté ✔️
 
-### Utilisation dans un projet ❌ / ✔️
+```
+export type AdCardProps = {
+	id:number
+	title: string;
+	picture: string;
+	price: number;
+};
+```
 
-[lien github](...)
+### Utilisation dans un projet ✔️
 
-Description :
+[https://github.com/maximmft/dark-corner/blob/main/frontend/src/components/AdCard.tsx](...)
 
-### Utilisation en production si applicable❌ / ✔️
+Description : Ce projet est un miniprojet reprenant le concept du Bon Coin
+
+### Utilisation en production si applicable❌
 
 [lien du projet](...)
 
 Description :
 
-### Utilisation en environement professionnel ❌ / ✔️
+### Utilisation en environement professionnel ✔️
 
-Description :
+Description : J'utilise typescript dans mon alternance
 
 ## 🌐 J'utilise des ressources
 
