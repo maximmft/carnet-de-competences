@@ -6,10 +6,138 @@
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- l'intéret de TypeScript dans l'IDE ❌ / ✔️
-- les types de bases ❌ / ✔️
-- comment et pourquoi étendre une interface ❌ / ✔️
-- les classes et les decorators ❌ / ✔️
+### L'intérêt de TypeScript dans l'IDE ✅ / ❌
+
+**Explication :**  
+TypeScript apporte des **types statiques** au JavaScript, ce qui permet à l'IDE de :  
+- Détecter les erreurs avant l'exécution (exemple : passer une string au lieu d’un number).  
+- Fournir des suggestions (autocomplétion) basées sur les types.  
+- Faciliter la navigation dans le code (aller à la définition d’une fonction ou d’un type).
+
+**Exemple :**
+```typescript
+function add(a: number, b: number): number {
+  return a + b;
+}
+
+add(2, "3"); // Erreur signalée par l'IDE avant l'exécution
+```
+
+**Avantages :**
+- Réduction des bugs liés aux types.
+- Productivité améliorée grâce à l’autocomplétion.
+- Maintenance du code facilitée.
+
+---
+
+### Les types de base ✅ / ❌
+
+**Explication :**  
+Les types de base permettent de définir clairement le type de données attendu :
+
+- string : Chaîne de caractères  
+- number : Nombre (entier ou décimal)  
+- boolean : Vrai ou Faux  
+- array : Tableau  
+- tuple : Tableau avec des types définis pour chaque position  
+- any : N'importe quel type (à éviter)  
+- void : Pas de retour (pour les fonctions)  
+- null/undefined : Valeurs nulles ou non définies  
+
+**Exemple :**
+```typescript
+let name: string = "Maxime";
+let age: number = 28;
+let isDeveloper: boolean = true;
+let hobbies: string[] = ["coding", "reading"];
+let user: [string, number] = ["Maxime", 28]; // Tuple
+```
+
+---
+
+### Comment et pourquoi étendre une interface ✅ / ❌
+
+**Explication :**  
+L'extension d'une interface permet de **réutiliser** des définitions existantes tout en ajoutant de nouvelles propriétés. Cela favorise la modularité et évite la duplication.
+
+**Exemple :**
+```typescript
+interface User {
+  id: number;
+  name: string;
+  email: string;
+}
+
+interface Admin extends User {
+  permissions: string[];
+}
+
+const admin: Admin = {
+  id: 1,
+  name: "Maxime",
+  email: "maxime@example.com",
+  permissions: ["manage-users", "delete-posts"]
+};
+```
+
+**Avantages :**
+- Réduction de la duplication de code.
+- Cohérence dans les structures de données.
+- Simplification des évolutions : ajouter une propriété à `User` affecte automatiquement `Admin`.
+
+---
+
+### Les classes et les decorators ✅ / ❌
+
+#### Classes  
+TypeScript ajoute des fonctionnalités orientées objet à JavaScript. Les classes permettent de créer des objets avec des propriétés et des méthodes, facilitant la réutilisation et la modularité.
+
+**Exemple :**
+```typescript
+class User {
+  id: number;
+  name: string;
+
+  constructor(id: number, name: string) {
+    this.id = id;
+    this.name = name;
+  }
+
+  greet(): string {
+    return `Hello, ${this.name}!`;
+  }
+}
+
+const user = new User(1, "Maxime");
+console.log(user.greet()); // "Hello, Maxime!"
+```
+
+#### Decorators  
+Les decorators sont des fonctions spéciales qui modifient le comportement des classes, méthodes, propriétés ou paramètres. Ils sont utilisés dans des frameworks comme **NestJS** ou **Angular**.
+
+**Exemple :**
+```typescript
+function Log(target: any, key: string) {
+  console.log(`La propriété "${key}" a été décorée.`);
+}
+
+class Product {
+  @Log
+  name: string;
+
+  constructor(name: string) {
+    this.name = name;
+  }
+}
+
+const product = new Product("Laptop");
+// Console : "La propriété 'name' a été décorée."
+```
+
+---
+
+### Résumé  
+Si tu te sens confiant sur ces sujets, coche-les comme acquis (`✅`). Sinon, indique les sujets à travailler (`❌`) pour approfondir avec des exemples ou explications plus détaillés.
 
 ## 💻 J'utilise
 
