@@ -173,19 +173,19 @@ Description : J'utilise typescript dans mon alternance
 
 ## 🚧 Je franchis les obstacles
 
-### Point de blocage ❌ / ✔️
+### Point de blocage ✔️
 
-Description:
+Description: Blocage sur les décorateurs
 
 Plan d'action : (à valider par le formateur)
 
-- action 1 ❌ / ✔️
-- action 2 ❌ / ✔️
+- action 1: Revoir les concepts ❌ / ✔️
+- action 2: Utiliser un décorateur dans un projet ❌ / ✔️
 - ...
 
 Résolution :
 
 ## 📽️ J'en fais la démonstration
 
-- J'ai ecrit un [tutoriel](...) ❌ / ✔️
-- J'ai fait une [présentation](...) ❌ / ✔️
+- J'ai ecrit un [tutoriel](...) ❌  
+- J'ai fait une [présentation](...) ❌  
