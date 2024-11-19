@@ -39,7 +39,6 @@ Les types de base permettent de définir clairement le type de données attendu 
 - number : Nombre (entier ou décimal)  
 - boolean : Vrai ou Faux  
 - array : Tableau  
-- tuple : Tableau avec des types définis pour chaque position  
 - any : N'importe quel type (à éviter)  
 - void : Pas de retour (pour les fonctions)  
 - null/undefined : Valeurs nulles ou non définies  
