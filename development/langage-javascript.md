@@ -23,12 +23,25 @@
 ### Un exemple de code commenté ❌ / ✔️
 
 ```javascript
-(e) => mc2;
+{cat.map((category) => (
+        <div key={category.Id_category_list} className="category-container">
+          <div
+            onClick={() => handleCategories(category)}
+            onKeyDown={handleCategories}
+            role="presentation"
+            style={{ backgroundImage: `url(${category.picture})` }}
+            className="category-image"
+          >
+            <h1 className="category-title">{category.title}</h1>
+            <h2 className="order-title">{category.details}</h2>
+          </div>
+        </div>
+      ))}
 ```
 
 ### Utilisation dans un projet ❌ / ✔️
 
-[lien github](...)
+[https://github.com/WildCodeSchool-2024-02/JS-Paris-BrainWaves-P3-Gems/](...)
 
 Description :
 
