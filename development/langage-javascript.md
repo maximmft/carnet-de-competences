@@ -46,15 +46,17 @@
 
 Description : Ce projet est mon projet de validation de DWWM, un site de vente de bijous entre particulier
 
-### J'ai utilisé ce langage en production ❌ / ✔️
+### J'ai utilisé ce langage en production ✔️
 
-[lien du projet](...)
+[https://github.com/WildCodeSchool-2024-02/JS-Paris-BrainWaves-P3-Gems/](...)
 
-Description :
+[https://gems-gems.fr/](...)
 
-### J'ai utilisé ce langage en environement professionnel ❌ / ✔️
+Description : Ce projet est mon projet de validation de DWWM, un site de vente de bijous entre particulier
 
-Description :
+### J'ai utilisé ce langage en environement professionnel ✔️
+
+Description : Lors de mon alternance je code sur React.js sur le projet qui est une plateforme de mise en relation entre Spa et hôtels de luxe
 
 ## 🌐 J'utilise des ressources
 
@@ -79,6 +81,6 @@ Résolution :
 
 ## 📽️ J'en fais la démonstration
 
-- J'ai ecrit un [tutoriel](...) ❌ / ✔️
-- J'ai fait une [présentation](...) ❌ / ✔️
+- J'ai ecrit un [tutoriel](...) ❌ 
+- J'ai fait une [présentation](...) ❌ 
 
