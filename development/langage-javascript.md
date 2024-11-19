@@ -20,10 +20,11 @@
 
 ## 💻 Je code en Javascript
 
-### Un exemple de code commenté ❌ / ✔️
+### Un exemple de code commenté ✔️
 
 ```javascript
-{cat.map((category) => (
+//Je parcours mes catégories en les affichant avec leur photo, nom et détails
+{cat.map((category) => ( 
         <div key={category.Id_category_list} className="category-container">
           <div
             onClick={() => handleCategories(category)}
@@ -39,11 +40,11 @@
       ))}
 ```
 
-### Utilisation dans un projet ❌ / ✔️
+### Utilisation dans un projet ✔️
 
 [https://github.com/WildCodeSchool-2024-02/JS-Paris-BrainWaves-P3-Gems/](...)
 
-Description :
+Description : Ce projet est mon projet de validation de DWWM, un site de vente de bijous entre particulier
 
 ### J'ai utilisé ce langage en production ❌ / ✔️
 
